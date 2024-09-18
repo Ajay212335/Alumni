@@ -1,0 +1,52 @@
+.navbar {
+
+    background-color: rgba(0, 0, 0, 0.41);
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-top: 50px;
+    float: left;
+    padding: 14px 20px;
+    font-size: 25px;
+  }
+  
+.navbar .vv {
+    margin-left: 400px;
+}
+
+.navbar li  {
+  color: white;
+  text-decoration: none;
+}
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    background-color: #1AB1CF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+  
+  .dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: #000000;
+  }
+  
